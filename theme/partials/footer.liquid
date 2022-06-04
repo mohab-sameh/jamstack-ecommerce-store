@@ -1,0 +1,44 @@
+<div class="section">
+    <div class="container">
+      <div class="w-layout-grid footer">
+        <a href="{{ links.2f }}" id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e2971b-87e29718" aria-current="page" class="logo-link w-inline-block w--current"><img src="{{ images.-4c77534e.url }}" width="65" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;65px&quot;}]" alt="{{ images.-4c77534e.alt | trim | escape }}" class="logo-footer"></a>
+        <div id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e2971d-87e29718" class="label">{{ texts.24897f }}</div>
+        <div id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e2971f-87e29718" class="links-section-footer">
+          <a href="{{ links.2f }}" aria-current="page" class="footer-link w--current">{{ texts.2268ff }}</a>
+          <a href="{{ links.55b8e8be }}" class="footer-link">{{ texts.3c2336d }}</a>
+          <a href="{{ links.4b0e6111 }}" class="footer-link">{{ texts.-64104400 }}</a>
+          <a href="{{ links.-343cd6d }}" class="footer-link">{{ texts.-37f9ca7c }}</a>
+          <a href="{{ links.2c48051 }}" class="footer-link">{{ texts.1fa3c2 }}</a>
+          <a href="{{ links.5ec7d55a }}" class="footer-link">{{ texts.7f9ce00b }}</a>
+        </div>
+        <div id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e29724-87e29718" class="label">{{ texts.-3be6ddc4 }}</div>
+        <div id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e29726-87e29718" class="links-section-footer">
+          {%- assign collection = collections.category | sort: "title" -%}<div class="w-dyn-list">
+            {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
+              {%- for item in collection -%}<div role="listitem" class="w-dyn-item">
+                <a href="{{ item.url }}" class="footer-link">{{ item.data.title }}</a>
+              </div>{%- endfor -%}
+            </div>{%- endunless -%}
+            {%- if collection.length == 0 -%}<div class="status-message w-dyn-empty">
+              <div>{{ texts.3d503d2b }}</div>
+            </div>{%- endif -%}
+          </div>
+        </div>
+        <div id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e2972d-87e29718" class="label">{{ texts.224361 }}</div>
+        <div id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e2972f-87e29718" class="links-section-footer">
+          <a href="{{ links.4b0e6111 }}" class="footer-link">{{ texts.-1aeabe32 }}</a>
+          <a href="{{ links.4b0e6111 }}" class="footer-link">{{ texts.797bf01a }}</a>
+          <a href="{{ links.4b0e6111 }}" class="footer-link">{{ texts.42b623e2 }}</a>
+        </div>
+        <div id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e29736-87e29718" class="label">{{ texts.7dc227d1 }}</div>
+        <div id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e29738-87e29718" class="links-section-footer">
+          <a href="{{ links.-5abca420 }}" target="_blank" class="footer-link">{{ texts.792b2792 }}</a>
+          <a href="{{ links.386dd7dd }}" target="_blank" class="footer-link">{{ texts.217bfee6 }}</a>
+          <a href="{{ links.310b69ca }}" target="_blank" class="footer-link">{{ texts.2c9a4253 }}</a>
+        </div>
+        <a id="w-node-_88a386dd-8f07-0c34-70f0-2d9f87e2973f-87e29718" href="{{ links.132c1309 }}" target="_blank" class="made-with-webflow w-inline-block"><img src="{{ images.-6738c29d.url }}" width="15" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;15px&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;2vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;15px&quot;}]" alt="{{ images.-6738c29d.alt | trim | escape }}" class="webflow-logo-tiny">
+          <div class="paragraph-tiny">{{ texts.42d540f5 }}</div>
+        </a>
+      </div>
+    </div>
+  </div>
